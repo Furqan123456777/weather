@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+ 
+</head>
+<body>
+
+    <div id="container" class="container">
+        <div class="search-Box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input id="input" type="text"  placeholder="Search for a location">
+             <button id= "search box button" class="fa-solid fa-magnifying-glass"></button>
+
+        </div>
+
+
+        <div id="weather-box" class="weather-box">
+            <div class="bow">
+                <div class="info-weather">
+                    <div class="weather">
+                        <img id="img" src="https://cdn1.iconfinder.com/data/icons/weather-forecast-meteorology-color-1/128/weather-partly-sunny-512.png" alt="">
+                        <p id="tempertur" class="tempertur">0 <span>°C</span></p>
+                        <p id="description" class="description">Broken Clouds</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="weather-details" class="weather-details">
+            <div class="humidity">
+                <i class="fa-solid fa-water"></i>
+                <div class="text">
+                    <div class="info-humidity">
+                        <span id="humidityspan">0%</span>
+
+                    </div>
+
+                    <p>Humidity</p>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="wind">
+                <i class="fa-solid fa-wind"></i>
+                <div class="text">
+                    <div class="info-wind">
+                        <span id="windspan">0km/h</span>
+
+                    </div>
+
+                    <p>wind speed</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- <div id="not-found" class="not-found">
+            <div class="box">
+                <img src="https://cdni.iconscout.com/illustration/premium/thumb/location-finding-error-2748723-2289757.png" alt="">
+                <P>Oops ! Location not found!</P>
+            </div>
+        </div> -->
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
